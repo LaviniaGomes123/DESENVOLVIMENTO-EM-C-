@@ -1,0 +1,292 @@
+A)
+#include <iostream>
+using namespace std;
+//somando numeros
+int main(){
+    // aderindo variavel
+    int n1;
+    int n2;
+    int sum;
+
+    //inserindo dados
+    cout << " digite um numero: ";
+    cin >> n1;
+
+    cout << "digite outro numero: ";
+    cin >> n2;
+
+    //somando
+    sum= n1 + n2;
+
+    //gerindo resultado
+    cout << "a soma dos numeros e: ";
+    cout << sum;
+
+}
+
+
+B)
+#include <iostream>
+using namespace std;
+//encontrando o dobro de um numero
+int main(){
+    // aderindo variavel
+    int n1;
+
+    int dobro;
+
+    //inserindo dados
+    cout << " digite um numero: ";
+    cin >> n1;
+
+
+
+    //dobrando resultado
+    dobro= n1 *2;
+
+    //gerindo resultado
+    cout << "o dobro do numero: " << n1 << " e " << dobro;
+
+
+}
+
+
+C)
+#include <iostream>
+using namespace std;
+//encontrando metade de um numero
+int main(){
+    // aderindo variavel
+    int n1;
+
+    int metade;
+
+    //inserindo dados
+    cout << " digite um numero: ";
+    cin >> n1;
+
+
+
+    //encontrando a metade 
+    metade= n1 /2;
+
+    //gerindo resultado
+    cout << "a metade do numero: " << n1 << " e " << metade;
+
+
+}
+
+
+D)
+#include <iostream>
+using namespace std;
+
+int main(){
+    // aderindo variavel
+    int n1;
+    int n2;
+    int dividir;
+
+    //inserindo dados
+    cout << " digite um numero: ";
+    cin >> n1;
+
+     cout << " digite outro numero: ";
+    cin >> n2;
+
+    //dividindo os numeros
+    dividir= n1 / n2;
+
+    //gerindo resultado
+    cout << "o resultado da divisao e " << dividir;
+
+
+}
+
+
+E)
+#include <iostream>
+using namespace std;
+
+int main(){
+    int numero;
+
+     cout << "digite um numero: ";
+     cin >> numero;
+     cout << " a raiz quadrada do numero " << numero << " e: ";
+     cout << sqrt(numero);  
+}
+
+
+
+F)
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n1;
+    int n2;
+    int subtraçao;
+
+     cout << "digite um numero: ";
+     cin >> n1;
+     cout << "digite outro numero";
+     cin >> n2;
+     subtraçao=n2-n1;
+     cout << " o resultado da subtracao e: ";
+     cout << subtraçao;
+
+
+}
+
+
+G)
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n1;
+
+     cout << "digite um numero: ";
+     cin >> n1;
+
+     cout << " o valor absoluto do numero e: ";
+     cout << abs(n1);
+
+
+}
+
+
+H)
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n1;
+    int n2;
+    int multi;
+
+     cout << "digite um numero: ";
+     cin >> n1;
+     cout << "digite outro numero: ";
+     cin >> n2;
+     multi= n1*n2;
+     cout << " o valor e: ";
+     cout <<multi;
+
+}
+
+
+J)
+#include <iostream>
+using namespace std;
+
+int main(){
+    int numero;
+    int divisao;
+
+    cout << "digite um numero";
+    cin >> numero;
+    divisao = numero / 2;
+    cout << "resultado da divisao: " << divisao;
+
+}
+
+
+K)
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n1;
+    int n2;
+    int n3;
+    int soma;
+    int media;
+
+    cout << "digite um numero: ";
+    cin >> n1;
+    cout << "digite outro: ";
+    cin >> n2;
+    cout << "mais um: ";
+    cin >> n3;
+
+    soma = n1+n2+n3;
+    media = soma / 3;
+    cout << "a media do numero digitado e: " << media;
+
+}
+
+
+
+L)
+#include <iostream>
+using namespace std;
+
+int main(){
+    int peso;
+    int altura;
+    int imc;
+
+
+    cout << "digite seu peso: ";
+    cin >> peso;
+    cout << "digite sua altura: ";
+    cin >> altura;
+
+
+    imc = peso / (altura * altura);
+    cout << "seu imc e: " << imc;
+
+}
+
+
+M)
+#include <iostream>
+using namespace std;
+
+int main(){
+    int celcius;
+    int formula;
+
+
+
+    cout << "digite uma temperatura: ";
+    cin >> celcius;
+
+    formula = (9/5) * celcius + 32;
+     cout << "transformando celcius em Fahrenheit: " << formula;
+
+
+
+
+}
+
+
+N)
+#include <iostream>
+using namespace std;
+
+int main(){
+    int preco;
+    int desconto;
+    int calculo_porcentagem;
+    int calculo_desconto;
+    int calculo_total;
+
+
+
+    cout << "digite o preco do produto: ";
+    cin >> preco;
+    cout << " digite o desconto do produto";
+    cin  >> desconto;
+
+    calculo_porcentagem = desconto/100;
+    calculo_desconto = calculo_porcentagem * preco;
+    calculo_total = preco - calculo_desconto;
+    cout << " cauculo da porcentagem: " << calculo_porcentagem;
+
+    cout << "cauculo do desconto: " << calculo_desconto;
+
+    cout << " o total a pagar com o desconto e: " << calculo_total;    
+}

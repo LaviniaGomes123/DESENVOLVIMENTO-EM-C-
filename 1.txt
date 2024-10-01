@@ -1,0 +1,98 @@
+A)
+#include <iostream>
+using namespace std;
+//inserindo um numero e imprimindo o resultado
+int main() { 
+int numero;
+  cout << "digite um numero: ";
+  cin >> numero;
+  cout << "o numero informado foi: " << numero;
+}
+
+
+
+B)
+#include <iostream>
+using namespace std;
+//inserindo um numero real e imprimindo o resultado
+int main(){
+double numero;
+cout << "digite um numero real":
+cin >> numero;
+cout << "o numero informado foi: " << numero;
+
+}
+
+
+
+C)
+#include <iostream>
+using namespace std;
+//digitando se é verdadeiro ou falso
+int main(){
+ string vf;
+
+cout << " digite verdadeiro(true) ou falso(false): ";
+cin >> vf;
+cout << "o resultado e: " << vf; 
+}
+
+
+
+D)
+#include <iostream>
+using namespace std;
+//inserindo um nome
+int main(){
+string name;
+    cout << "digite um nome: ";
+    cin >> name;
+    cout << "Ola, " << name << "!";
+
+
+return 0;
+}
+
+
+F)
+#include <iostream>
+using namespace std;
+//inserindo nome e idade
+int main(){
+    string nome;
+    int idade;
+    cout << "digite seu nome: ";
+    cin >> nome;
+    cout << "insira sua idade: ";
+    cin >> idade;
+    cout << "ola, eu sou " << nome << " e tenho " << idade << " anos "; 
+
+}
+
+
+G)
+#include <iostream>
+using namespace std;
+//inserindo dados de moradia do usuario
+int main(){
+    // aderindo variavel
+   string nome, estado, cidade, bairro, rua;
+   int numeroCasa;
+
+   //inserindo dados
+   cout << "insira seu nome: ";
+   cin >> nome;
+   cout << "qual seu estado? ";
+   cin >> estado;
+   cout << "qual sua cidade? ";
+   cin >> cidade;
+   cout << "qual seu bairro? ";
+   cin >> bairro;
+   cout << "Qual sua rua? ";
+   cin >> rua;
+   cout << "insira o numero da casa: ";
+   cin >> numeroCasa;
+   
+   //mostrando resultados
+   cout << nome << "e do estado de " << estado << ", na cidade de " << cidade << ", no bairro " << bairro << ", rua " << rua << ", numero " << numeroCasa;
+   }
